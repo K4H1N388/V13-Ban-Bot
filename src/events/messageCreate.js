@@ -1,5 +1,3 @@
-//burasının ne olduğunu bilmiyorsanız lütfen hiç bir koda dokunmayın.
-
 const { prefix } = require("../base/settings.json");
 module.exports = {
   name: "messageCreate",
