@@ -1,11 +1,7 @@
-//burasının ne olduğunu bilmiyorsanız lütfen hiç bir koda dokunmayın.
-
 module.exports = {
 	name: 'interactionCreate',
 	execute(interaction, client) {
-	  if (!interaction.isCommand()) {
-		  //butona basıldığında burda hangi işlemleri yapacağınızı belirleyebilirsiniz.
-	  } else {
+	  if (interaction.isCommand()) {
 		const command = client.slashcommands.get(interaction.commandName);
 		if (!command) return;
 		try {
