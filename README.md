@@ -1,10 +1,9 @@
 ## Kurulum
-Terminale ```bash
-npm i ```
+Terminale ```npm i```
 yazıp modüllerin indirilmesini bekleyin. 
 <br>
 <br> 
-modüller indirildikten sonra```bash npm start``` yazınız.
+modüller indirildikten sonra```npm start``` yazınız.
 
 ## Ayarlar
 Botun yapılması gerek tüm ayarlarını `src/bash/settings.json` dosyasından yapabilirsiniz.
